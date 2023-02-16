@@ -8,7 +8,7 @@ int main(void)
 {
 	char charType;
 	int shortInt;
-	unsigned int intType;
+	long intType;
 	float floatType;
 	double doubleType;
 
