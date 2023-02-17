@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * more description
- * of the main function
- * betty tyle doc for function main goes there
+ * main - if statment
+ *
+ * Description: 'the program's description'
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
