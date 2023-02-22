@@ -2,6 +2,7 @@
 /**
 * _islower - Print - the alphabet game
 *
+* @c: gets int value
 * Description: 'print_alphabet program's description'
 * Return: Always 0 (Succuccess)
 */
