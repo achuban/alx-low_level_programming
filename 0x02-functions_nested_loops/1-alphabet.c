@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* main - Print - the alphabet game
+* print_alphabet - Print - the alphabet game
 *
-* Description: 'the program's description'
+* Description: 'print_alphabet program's description'
 * Return: Always 0 (Succuccess)
 */
 void print_alphabet(void)
