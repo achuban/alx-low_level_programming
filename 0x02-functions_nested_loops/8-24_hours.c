@@ -17,11 +17,11 @@ void jack_bauer(void)
 	m = 0;
 	m1 = 0;
 
-	for (h = 0; h < 10; h++)
+	for (h = 0; h < 3; h++)
 	{
-		for (h1 = 0; h1 < 10; h1++)
+		for (h1 = 0; h1 < 5; h1++)
 		{
-			for (m = 0; m < 10; m++)
+			for (m = 0; m < 6; m++)
 			{
 				for (m1 = 0; m1 < 10; m1++)
 				{
