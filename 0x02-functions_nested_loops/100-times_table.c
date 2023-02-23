@@ -56,6 +56,6 @@ void prow(int n)
 				}
 			}
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
