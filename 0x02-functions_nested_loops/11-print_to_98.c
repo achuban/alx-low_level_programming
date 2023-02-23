@@ -16,7 +16,7 @@ void print_to_98(int n)
 		{
 			if (c < -10 && c < 9)
 			{
-				printf("%i", c);
+				printf("%d", c);
 			}
 			if (c != 98)
 			{
@@ -29,7 +29,7 @@ void print_to_98(int n)
 		{
 			if (c < -10 && c < 9)
 			{
-				printf("%i", c);
+				printf("%d", c);
 			}
 			if (c != 98)
 			{
