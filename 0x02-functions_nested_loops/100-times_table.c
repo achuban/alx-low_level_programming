@@ -30,9 +30,9 @@ void prow(int n)
 				{
 					_putchar(44);
 					_putchar(32);
+					_putchar(32);
 					if ((r + 1) * c < 10)
 					{	
-						_putchar(32);
 						_putchar(32);
 					}
 				}
@@ -41,10 +41,10 @@ void prow(int n)
 			{
 				_putchar((m / 10) + '0');
 				_putchar((m % 10) + '0');
+				_putchar(32);
 				if (r < n)
 				{
 					_putchar(44);
-					_putchar(32);
 					_putchar(32);
 				}
 			}
@@ -56,7 +56,6 @@ void prow(int n)
 				if(r < n)
 				{
 					_putchar(44);
-					_putchar(32);
 					_putchar(32);
 				}
 			}
