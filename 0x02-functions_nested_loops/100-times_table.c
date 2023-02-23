@@ -13,9 +13,9 @@ void print_times_table(int n)
 	int m;
 
 	if (n > 0 && n < 16)
-		for (c = 0; c < n; c++)
+		for (c = 0; c <= n; c++)
 		{
-			for (r = 0; r < n; r++)
+			for (r = 0; r <= n; r++)
 			{
 				m = c * r;
 				if (m < 10)
