@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
 * print_to_98- Print - the alphabet game
@@ -15,17 +16,12 @@ void print_to_98(int n)
 		{
 			if (c < -10 && c < 9)
 			{
-				_putchar(c);
+				printf("%i", c);
 			}
-			else
+			if (c != 98)
 			{
-				_putchar((c / 10) + '0');
-				_putchar((c % 10) + '0');
-				if (c != 98)
-				{
-					_putchar(44);
-					_putchar(32);
-				}
+				_putchar(44);
+				_putchar(32);
 			}
 		}
 	else
@@ -33,17 +29,12 @@ void print_to_98(int n)
 		{
 			if (c < -10 && c < 9)
 			{
-				_putchar(c);
+				printf("%i", c);
 			}
-			else
+			if (c != 98)
 			{
-				_putchar((c / 10) + '0');
-				_putchar((c % 10) + '0');
-				if (c != 98)
-				{
-					_putchar(44);
-					_putchar(32);
-				}
+				_putchar(44);
+				_putchar(32);
 			}
 		}
 	_putchar('\n');
