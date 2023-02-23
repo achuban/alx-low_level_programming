@@ -6,11 +6,13 @@
 * Description: 'print_alphabet program's description'
 * Return: Always 0 (Succuccess)
 */
-int _islower(int c)
+int print_last_digit(int c)
 {
 	int r;
+	int t;
 
-	r = c % 10;
+	t = 10;
+	r = (c % t);
 
 	return (r);
 }
