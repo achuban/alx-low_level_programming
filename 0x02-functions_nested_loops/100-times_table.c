@@ -37,7 +37,7 @@ void prow(int n)
 					}
 				}
 			}
-			else if (m > 10 && m < 100)
+			else if (m >= 10 && m < 100)
 			{
 				_putchar((m / 10) + '0');
 				_putchar((m % 10) + '0');
@@ -48,7 +48,7 @@ void prow(int n)
 					_putchar(32);
 				}
 			}
-			else if (m > 100)
+			else if (m >= 100)
 			{
 				_putchar((m / 100) + '0');
 				_putchar((m / 10) + '0');
