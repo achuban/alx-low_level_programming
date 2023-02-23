@@ -10,10 +10,10 @@ void print_to_98(int n)
 {
 	int c;
 
-	if (n < 98)
+	if (n <= 98)
 		for (c = n; c <= 98; c++)
 		{
-			if (c < -10 || c < 9)
+			if (c < -10 && c < 9)
 			{
 				_putchar(c);
 			}
@@ -29,9 +29,9 @@ void print_to_98(int n)
 			}
 		}
 	else
-		for (c = n; c <= 98; c--)
+		for (c = n; c >= 98; c--)
 		{
-			if (c < -10 || c < 9)
+			if (c < -10 && c < 9)
 			{
 				_putchar(c);
 			}
