@@ -14,10 +14,7 @@ void print_to_98(int n)
 	if (n <= 98)
 		for (c = n; c <= 98; c++)
 		{
-			if (c < -10 && c < 9)
-			{
-				printf("%d", c);
-			}
+			printf("%d", c);
 			if (c != 98)
 			{
 				_putchar(44);
@@ -27,10 +24,7 @@ void print_to_98(int n)
 	else
 		for (c = n; c >= 98; c--)
 		{
-			if (c < -10 && c < 9)
-			{
-				printf("%d", c);
-			}
+			printf("%d", c);
 			if (c != 98)
 			{
 				_putchar(44);
