@@ -10,7 +10,6 @@ void print_times_table(int n)
 {
 	int c;
 	int r;
-	int m;
 
 	if (n > 0 && n < 16)
 		for (c = 0; c <= n; c++)
@@ -22,6 +21,8 @@ void print_times_table(int n)
 
 void prow(int n, int c, int r)
 {
+	int m;
+	
 	for (r = 0; r <= n; r++)
 	{
 		m = c * r;
