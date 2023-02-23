@@ -10,7 +10,6 @@ void print_times_table(int n)
 {
 	if (n > 0 && n < 16)
 		prow(n);
-		_putchar('\n');
 }
 
 void prow(int n)
@@ -58,4 +57,5 @@ void prow(int n)
 			}
 		}
 	}
+	_putchar('\n');
 }
