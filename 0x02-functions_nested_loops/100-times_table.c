@@ -22,7 +22,21 @@ void print_times_table(int n)
 				m = c * r;
 				nt = (c + 1) * r;
 				printf("%d", m);
-				prow(nt, r);
+				if (r < n)
+				{
+					if (n < 10)
+					{
+						printf(",   ");
+					}
+					else if (n >= 10 && n < 100)
+					{
+						printf(",  ");
+					}
+					else if (n >= 100)
+					{
+						printf(", ");
+					}
+				}
 			}
 			_putchar('\n');
 		}
