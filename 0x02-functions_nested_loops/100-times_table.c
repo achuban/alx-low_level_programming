@@ -9,23 +9,23 @@
 */
 void print_times_table(int n)
 {
-	if (n > 0 && n < 16)
-		int c;
+	int c;
 	int r;
 	int m;
 	int n;
 	
-	for (c = 0; c <= n; c++)
-	{
-		for (r = 0; r <= n; r++)
+	if (n > 0 && n < 16)
+		for (c = 0; c <= n; c++)
 		{
-			m = c * r;
-			n = (c +1) * r ;
-			printf("%d", m);
-			prow(n, r);
+			for (r = 0; r <= n; r++)
+			{
+				m = c * r;
+				n = (c +1) * r ;
+				printf("%d", m);
+				prow(n, r);
+			}
+			_putchar('\n');
 		}
-		_putchar('\n');
-	}
 }
 
 void prow(int n, int r)
