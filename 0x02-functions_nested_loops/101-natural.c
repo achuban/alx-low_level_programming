@@ -9,7 +9,6 @@ int main(void)
 {
 	int i;
 	int s;
-
 	for (i = 0; i < 1024; i++)
 	{
 		if (i % 3 == 0)
