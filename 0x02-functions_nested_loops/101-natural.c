@@ -7,18 +7,17 @@
 */
 int main(void)
 {
-    int i;
-    int s;
-
-    for (i = 0; i < 1024; i++)
-    {
-        if (i % 3 == 0)
-            s += i;
-        else if (i % 5 == 0)
-            s += i;
-    }
-    printf("%d", s);
-    printf("\n");
-
-    return (0);
+	int i;
+	int s;
+	for (i = 0; i < 1024; i++)
+	{
+		if (i % 3 == 0)
+			s += i;
+		else if (i % 5 == 0)
+			s += i;
+	}
+	printf("%d", s);
+	printf("\n");
+	
+	return (0);
 }
