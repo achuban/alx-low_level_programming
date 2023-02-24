@@ -25,7 +25,8 @@ void prow(int n)
 			m = c * r;
 			if (m < 10)
 			{
-				_putchar(m + '0');
+				//_putchar(m + '0');
+				printf("%d", m);
 				if (r < n)
 				{
 					_putchar(44);
