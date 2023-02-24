@@ -22,6 +22,7 @@ void print_times_table(int n)
 				m = c * r;
 				nt = (c + 1) * r;
 				printf("%d", m);
+				prow(n, nt, r);
 			}
 			_putchar('\n');
 		}
