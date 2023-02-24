@@ -24,42 +24,18 @@ void prow(int n)
 		for (r = 0; r <= n; r++)
 		{
 			m = c * r;
+			printf("%d, ", m);
 			if (m < 10)
 			{
-				/* _putchar(m + '0'); */
-				printf("%d", m);
-				if (r < n)
-				{
-					_putchar(44);
-					_putchar(32);
-					_putchar(32);
-					if ((r + 1) * c < 10)
-					{	
-						_putchar(32);
-					}
-				}
+				
 			}
 			else if (m >= 10 && m < 100)
 			{
-				_putchar((m / 10) + '0');
-				_putchar((m % 10) + '0');
-				if (r < n)
-				{
-					_putchar(44);
-					_putchar(32);
-					_putchar(32);
-				}
+				
 			}
 			else if (m >= 100)
 			{
-				_putchar((m / 100) + '0');
-				_putchar((m / 10) + '0');
-				_putchar((m % 10) + '0');
-				if(r < n)
-				{
-					_putchar(44);
-					_putchar(32);
-				}
+				
 			}
 		}
 		_putchar('\n');
