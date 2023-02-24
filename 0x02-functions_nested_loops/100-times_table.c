@@ -14,7 +14,7 @@ void print_times_table(int n)
 	int m;
 	int nt;
 	
-	if (n > 0 && n < 16)
+	if (n >= 0 && n < 16)
 		for (c = 0; c <= n; c++)
 		{
 			for (r = 0; r <= n; r++)
@@ -27,7 +27,6 @@ void print_times_table(int n)
 			printf("\n");
 		}
 }
-
 /**
 * prow - Print - the alphabet game
 *
