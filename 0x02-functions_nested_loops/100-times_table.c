@@ -20,7 +20,7 @@ void print_times_table(int n)
 			for (r = 0; r <= n; r++)
 			{
 				m = c * r;
-				nt = (c + 1) * r;
+				nt = (r + 1) * c;
 				printf("%d", m);
 				prow(n, nt, r);
 			}
