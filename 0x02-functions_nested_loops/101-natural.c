@@ -17,6 +17,7 @@ int main(void)
 		else if (i % 5 == 0)
 			s += i;
 	}
+	
 	printf("%d", s);
 	printf("\n");
 	
