@@ -19,7 +19,7 @@ void print_times_table(int n)
 			for (r = 0; r <= n; r++)
 			{
 				m = c * r;
-				n = (c +1) * r ;
+				n = (c +1) * r;
 				printf("%d", m);
 				prow(n, r);
 			}
@@ -29,7 +29,7 @@ void print_times_table(int n)
 
 void prow(int n, int r)
 {
-	if(r < n)
+	if (r < n)
 	{
 		if (n < 10)
 		{
