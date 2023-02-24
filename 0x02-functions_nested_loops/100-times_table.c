@@ -45,7 +45,7 @@ void prow(int n, int nt, int r)
 		{
 			printf(",   ");
 		}
-		else if (nt >= 10 && n < 100)
+		else if (nt >= 10 && nt < 100)
 		{
 			printf(",  ");
 		}
