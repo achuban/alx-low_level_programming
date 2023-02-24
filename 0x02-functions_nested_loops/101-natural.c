@@ -6,9 +6,9 @@
 * Return: Always 0 (Succuccess)
 */
 int main(void)
-{
+{	
 	int i;
-	int s;
+ 	int s;
 	
 	for (i = 0; i < 1024; i++)
 	{
@@ -17,7 +17,6 @@ int main(void)
 		else if (i % 5 == 0)
 			s += i;
 	}
-	
 	printf("%d", s);
 	printf("\n");
 	
