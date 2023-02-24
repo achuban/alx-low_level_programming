@@ -13,7 +13,7 @@ void print_times_table(int n)
 	int r;
 	int m;
 	int nt;
-	
+
 	if (n >= 0 && n < 16)
 		for (c = 0; c <= n; c++)
 		{
@@ -41,16 +41,10 @@ void prow(int n, int nt, int r)
 	if (r < n)
 	{
 		if (nt < 10)
-		{
 			printf(",   ");
-		}
 		else if (nt >= 10 && nt < 100)
-		{
 			printf(",  ");
-		}
 		else if (nt >= 100)
-		{
 			printf(", ");
-		}
 	}
 }
