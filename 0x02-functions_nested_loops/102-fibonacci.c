@@ -12,8 +12,8 @@ int main(void)
 	int p1;
 	int p2;
 
-	p1 = 1;
-	p2 = 0;
+	p1 = 2;
+	p2 = 1;
 	i = 0;
 	
 	printf("%d, ", p2);
