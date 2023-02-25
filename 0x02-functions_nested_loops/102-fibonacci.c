@@ -18,12 +18,12 @@ int main(void)
 
 	printf("%li, ", p2);
 	printf("%li, ", p1);
-	while (i < 49)
+	while (i < 48)
 	{
 		f = p1 + p2;
 		p2 = p1;
 		p1 = f;
-		if (i != 50)
+		if (i != 48)
 		{
 			printf("%li, ", f);
 		}
