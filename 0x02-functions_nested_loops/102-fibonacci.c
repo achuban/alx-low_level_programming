@@ -14,6 +14,7 @@ int main(void)
 
 	p1 = 1;
 	p2 = 0;
+	i = 0;
 
 	while (i <= 50)
 	{
