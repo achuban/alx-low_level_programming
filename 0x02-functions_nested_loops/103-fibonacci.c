@@ -22,7 +22,7 @@ int main(void)
 		p2 = p1;
 		p1 = f;
 		if (f % 2 == 0)
-			s +=f;
+			s += f;
 	}
 	printf("%li", s);
 	printf("\n");
