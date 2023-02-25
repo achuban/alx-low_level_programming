@@ -23,7 +23,7 @@ int main(void)
 		f = p1 + p2;
 		p2 = p1;
 		p1 = f;
-		if (i != 48)
+		if (i != 47)
 		{
 			printf("%li, ", f);
 		}
