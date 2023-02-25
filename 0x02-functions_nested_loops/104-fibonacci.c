@@ -8,30 +8,31 @@
 int main(void)
 {
 	int i;
-	int f;
-	int p1;
-	int p2;
+	long f;
+	long p1;
+	long p2;
 
 	p1 = 2;
 	p2 = 1;
+	i = 0;
 
-	while (i <= 98)
+	printf("%li, ", p2);
+	printf("%li, ", p1);
+	while (i < 96)
 	{
-		if (i != 98)
-		{
-			printf("%d, ", p2);
-			printf("%d, ", p1);
-		}
-		else
-		{
-			printf("%d", p2);
-			printf("%d", p1);
-		}
 		f = p1 + p2;
 		p2 = p1;
 		p1 = f;
+		if (i != 95)
+		{
+			printf("%li, ", f);
+		}
+		else
+		{
+			printf("%li", f);
+		}
+		i++;
 	}
 	printf("\n");
-
 	return (0);
 }
