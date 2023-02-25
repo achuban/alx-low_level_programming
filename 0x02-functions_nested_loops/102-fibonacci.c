@@ -15,28 +15,24 @@ int main(void)
 	p1 = 2;
 	p2 = 1;
 	i = 0;
-	
-	printf("%d, ", p2);
-	printf("%d, ", p1);
 
+	printf("%li, ", p2);
+	printf("%li, ", p1);
 	while (i < 49)
 	{
 		f = p1 + p2;
 		p2 = p1;
 		p1 = f;
-		
 		if (i != 50)
 		{
-			printf("%d, ", f);
+			printf("%li, ", f);
 		}
 		else
 		{
-			printf("%d", f);
+			printf("%li", f);
 		}
-		
 		i++;
 	}
 	printf("\n");
-
 	return (0);
 }
