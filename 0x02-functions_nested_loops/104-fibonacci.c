@@ -18,12 +18,12 @@ int main(void)
 
 	printf("%li, ", p2);
 	printf("%li, ", p1);
-	while (i < 96)
+	while (i < 93)
 	{
 		f = p1 + p2;
 		p2 = p1;
 		p1 = f;
-		if (i != 95)
+		if (i != 92)
 		{
 			printf("%li, ", f);
 		}
