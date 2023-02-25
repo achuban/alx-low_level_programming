@@ -7,17 +7,16 @@
 */
 int main(void)
 {
-	int i;
-	int f;
-	int p1;
-	int p2;
-	int s;
+	long f;
+	long p1;
+	long p2;
+	long s;
 
 	p1 = 2;
 	p2 = 1;
 	s = 2;
 
-	while (s <= 4000000)
+	while (f <= 4000000)
 	{
 		f = p1 + p2;
 		p2 = p1;
@@ -25,7 +24,7 @@ int main(void)
 		if (f % 2 == 0)
 			s +=f;
 	}
-	printf("%d", s);
+	printf("%li", s);
 	printf("\n");
 
 	return (0);
