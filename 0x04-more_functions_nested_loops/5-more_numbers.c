@@ -29,9 +29,10 @@ void more_numbers(void)
 	_putchar('\n');
 }
 /**
-* print_numbers - Print - nubers 0-14
+* print_numbers - Print - char
 *
-* Description: 'print numbers from 0-14'
+* @r: char input to print 
+* Description: 'print char'
 */
 void print_numbers(char r)
 {
