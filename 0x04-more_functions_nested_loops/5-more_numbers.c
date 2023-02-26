@@ -15,12 +15,12 @@ void more_numbers(void)
 		{
 			if (r < 10)
 			{
-				print_numbers((char)r);
+				print_numbers(r + 48);
 			}
 			else
 			{
-				print_numbers((char)(r / 10));
-				print_numbers((char)(r % 10));
+				print_numbers((r / 10) + 48);
+				print_numbers((r % 10) + 48);
 			}
 		}
 		_putchar('\n');
@@ -33,7 +33,7 @@ void more_numbers(void)
 * @r: char input to print 
 * Description: 'print char'
 */
-void print_numbers(char r)
+void print_numbers(int r)
 {
-	_putchar(r + 48);
+	_putchar(r);
 }
