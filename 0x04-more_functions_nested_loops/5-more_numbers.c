@@ -30,7 +30,7 @@ void more_numbers(void)
 /**
 * print_numbers - Print - char
 *
-* @r: char input to print 
+* @r: char input to print
 * Description: 'print char'
 */
 void just_print(int r)
