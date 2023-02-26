@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _isdigit - checks if the input _is digit 
+* _isdigit - checks if the input _is digit
 *
 * @c: gets int value
 * Description: 'checks if the input is is digit'
@@ -14,5 +14,6 @@ int _isdigit(int c)
 	r = 0;
 	if (c >= 48 && c <= 57)
 		r = 1;
+
 	return (r);
 }
