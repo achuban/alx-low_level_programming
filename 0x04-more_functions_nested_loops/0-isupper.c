@@ -6,6 +6,7 @@
 * Description: 'checks if the input is upper case - the alphabet game'
 * Return: Always 0 (Succuccess)
 */
+
 int _isupper(int c)
 {
 	int r;
