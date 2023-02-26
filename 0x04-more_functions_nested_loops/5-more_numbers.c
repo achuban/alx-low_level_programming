@@ -25,7 +25,6 @@ void more_numbers(void)
 		}
 		_putchar('\n');
 	}
-	_putchar('\n');
 }
 /**
 * just_print - Print - char
