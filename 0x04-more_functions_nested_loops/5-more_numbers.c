@@ -8,7 +8,6 @@ void more_numbers(void)
 {
 	int c;
 	int r;
-	int n;
 
 	for (c = 0; c < 10; c++)
 	{
@@ -16,12 +15,12 @@ void more_numbers(void)
 		{
 			if (r < 10)
 			{
-				print_numbers(r);
+				print_numbers((char)r);
 			}
 			else
 			{
-				print_numbers(r / 10);
-				print_numbers(r % 10);
+				print_numbers((char)(r / 10));
+				print_numbers((char)(r % 10));
 			}
 		}
 		_putchar('\n');
