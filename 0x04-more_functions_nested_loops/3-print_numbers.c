@@ -4,7 +4,6 @@
 *
 * Description: 'print numbers from0-9'
 */
-
 void print_numbers(void)
 {
 	int c;
@@ -13,6 +12,5 @@ void print_numbers(void)
 	{
 		_putchar(48 + c);
 	}
-	
 	_putchar('\n');
 }
