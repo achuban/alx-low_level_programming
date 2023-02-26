@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* mul - multiply numbers 
+* mul - multiply numbers
 *
 * @a: gets int value
 * @b: gets int value
