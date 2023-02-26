@@ -8,6 +8,6 @@ int mul(int a, int b);
 void print_numbers(void);
 void print_most_numbers(void);
 void more_numbers(void);
-void print_numbers(int r);
+void just_print(int r);
 
 #endif /* MAIN_H */
