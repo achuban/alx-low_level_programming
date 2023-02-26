@@ -11,7 +11,7 @@ void more_numbers(void)
 
 	for (c = 0; c < 10; c++)
 	{
-		for  (r = 0; r <= 14; r++)
+		for  (r = 0; r < 14; r++)
 		{
 			if (r < 10)
 			{
@@ -28,9 +28,9 @@ void more_numbers(void)
 	_putchar('\n');
 }
 /**
-* print_numbers - Print - char
+* just_print - Print - char
 *
-* @r: char input to print
+* @r: int input to print
 * Description: 'print char'
 */
 void just_print(int r)
