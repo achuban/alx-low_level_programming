@@ -19,8 +19,8 @@ void more_numbers(void)
 			}
 			else
 			{
-				print_numbers((r + 48) / 10);
-				print_numbers((r + 48) % 10);
+				print_numbers((r / 10) + 48);
+				print_numbers((r % 10) + 48);
 			}
 		}
 		_putchar('\n');
@@ -35,5 +35,5 @@ void more_numbers(void)
 */
 void print_numbers(int r)
 {
-	_putchar(r + '0');
+	_putchar(r);
 }
