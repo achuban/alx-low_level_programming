@@ -5,7 +5,7 @@
 * Description: 'print numbers from0-9'
 */
 
-void print_numbers(void);
+void print_numbers(void)
 {
 	int c;
 
