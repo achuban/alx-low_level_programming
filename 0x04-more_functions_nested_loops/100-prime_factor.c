@@ -18,7 +18,7 @@ int main(void)
 	{
 		if (n % p != 0)
 		{
-			p = p +1;
+			p = p + 1;
 		}
 		else
 		{
