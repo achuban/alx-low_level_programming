@@ -12,7 +12,7 @@ void print_diagonal(int n)
 
 	for (c = 0; c < n; c++)
 	{
-		for (r = 0; r < n - 1; r++)
+		for (r = 0; r < c; r++)
 		{
 			_putchar(32);
 		}
