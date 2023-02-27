@@ -5,7 +5,6 @@
 * Description: 'prints the largest prime factor of the number 612852475143'
 * Return: Always 0 (Succuccess)
 */
-
 int main(void)
 {
 	long int n;
