@@ -28,7 +28,7 @@ int main(void)
 			if (n == 1)
 			{
 				printf("%li\n", m);
-				brake;
+				break;
 			}
 		}
 	}
