@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
 * main - Print - Fizz-Buzz test nubers 0-100
 *
