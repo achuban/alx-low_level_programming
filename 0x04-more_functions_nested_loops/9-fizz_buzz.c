@@ -4,7 +4,7 @@
 *
 * Description: 'Fizz-Buzz test with multipiy of 3 & 5 nubers 0-100'
 */
-void main(void)
+int main(void)
 {
 	int c;
 
@@ -19,4 +19,5 @@ void main(void)
 		else
 			printf("%d ", c);
 	}
+	return(0);
 }
