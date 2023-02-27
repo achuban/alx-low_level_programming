@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	long n;
-	long m;
+	long int n;
+	long int m;
 	int p;
 	
 	n = 612852475143;
