@@ -2,7 +2,7 @@
 /**
 * print_diagonal - Print - diagonal
 *
-* @n: int n parameter 
+* @n: int n parameter
 * Description: 'print_diagonal with \'
 */
 void print_diagonal(int n)
