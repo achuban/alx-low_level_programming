@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* puts2 - prints every other character of a string
+* puts2 - prints every other char
 *
 * @str: s is a ponter to sting
-* Description: 'prints every other char starting with the 1st, followed by a \n'
+* Description: 'prints every other char starting with the 1st & by a \n'
 */
 
 void puts2(char *str)
