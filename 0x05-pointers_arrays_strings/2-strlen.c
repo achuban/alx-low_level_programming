@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* reset_to_98 - reset to 98
+* _strlen - reset to 98
 *
-* @n: n is a ponter to int data type
-* Description: 'reset to 98 '
+* @s: s is a ponter to char data type
+* Description: 'count the length'
 * Return: int value 0 (Succuccess)
 */
 int _strlen(char *s)
