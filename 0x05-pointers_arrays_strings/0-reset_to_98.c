@@ -2,7 +2,7 @@
 /**
 * reset_to_98 - reset to 98
 *
-* @*n: n is a ponter to int data type
+* @n: n is a ponter to int data type
 * Description: 'reset to 98 '
 * Return: Always 0 (Succuccess)
 */
