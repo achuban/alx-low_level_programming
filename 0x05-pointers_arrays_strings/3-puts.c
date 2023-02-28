@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* _puts - reset to 98
+* _puts - prints string with a new line at the end 
 *
-* @s: s is a ponter to char data type
-* Description: 'count the length'
+* @str: s is a ponter to sting
+* Description: 'prints string with a new line at the end '
 */
 void _puts(char *str)
 {
