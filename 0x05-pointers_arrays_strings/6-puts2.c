@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* puts2 - a function that prints every other character of a string
+* puts2 - prints every other character of a string
 *
 * @str: s is a ponter to sting
-* Description: 'a function that prints every other character of a string, starting with the first character, followed by a new line '
+* Description: 'prints every other character of a string, starting with the first character, followed by a new line'
 */
 
 void puts2(char *str)
