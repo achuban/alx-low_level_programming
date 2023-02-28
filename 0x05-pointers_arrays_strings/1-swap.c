@@ -1,12 +1,11 @@
 #include "main.h"
 /**
-* reset_to_98 - reset to 98
+* swap_int - swap two int's
 *
-* @n: n is a ponter to int data type
-* Description: 'reset to 98 '
-* Return: Always 0 (Succuccess)
+* @a: a is a ponter to int data type
+* @b: a is a ponter to int data type
+* Description: 'swap two int's'
 */
-
 void swap_int(int *a, int *b)
 {
 	int s;
