@@ -4,7 +4,6 @@
 *
 * @s: s is a ponter to char data type
 * Description: 'count the length'
-* Return: Always 0
 */
 void _puts(char *str)
 {
@@ -15,6 +14,4 @@ void _puts(char *str)
 		_putchar(str[i]);
 	}
 	_putchar('\n');
-
-	return (0);
 }
