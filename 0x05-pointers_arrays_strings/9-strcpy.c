@@ -5,7 +5,7 @@
 * @dest: s is a ponter to char dest
 * @src: src is a pointer to char src
 * Description: 'prints string with a new line at the end '
-* return: dest
+* Return: dest
 */
 
 char *_strcpy(char *dest, char *src)
