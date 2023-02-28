@@ -9,14 +9,20 @@
 void rev_string(char *s)
 {
 
-	int i;
+	int i;	
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
 	}
+	
+	char c[i];
+	int j;
+	
+	c = *s;
+	j = 0;
 	for (i = i - 1; i >= 0; i--)
 	{
-		_putchar(s[i]);
+		s[j] = c[i];
+		j++;
 	}
-	_putchar('\n');
 }
