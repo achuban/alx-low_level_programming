@@ -12,14 +12,14 @@ int _atoi(char *s)
 	int n;
 	int l;
 	int f;
-	int d;
+	int di;
 	
 	i = 0;
 	d = 0;
 	n = 0;
 	l = 0;
 	f = 0;
-	d = 0;
+	di = 0;
 	
 	while (s[l] != '\0')
 		l++;
@@ -29,9 +29,9 @@ int _atoi(char *s)
 			++d;
 		if (s[i] >= '0' && s[i] <= '9')
 		{
-			d= s[i] - '0';
+			di= s[i] - '0';
 			if (d % 2)
-				d = -d;
+				di = -di;
 			n = n * 10 + d;
 			f = 1;
 			if (s[i + 1] < '0' || s[i + 1] > '9')
