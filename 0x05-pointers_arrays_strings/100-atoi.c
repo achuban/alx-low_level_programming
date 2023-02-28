@@ -13,14 +13,14 @@ int _atoi(char *s)
 	int len;
 	int f;
 	int digit;
-	
+
 	i = 0;
 	d = 0;
 	n = 0;
 	len = 0;
 	f = 0;
 	digit = 0;
-	
+
 	while (s[len] != '\0')
 		len++;
 	while (i < len && f == 0)
@@ -42,6 +42,6 @@ int _atoi(char *s)
 	}
 	if (f == 0)
 		return (0);
-	
+
 	return (n);
 }
