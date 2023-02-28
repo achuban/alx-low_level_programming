@@ -10,10 +10,9 @@ int main(void)
 	long int n;
 	long int m;
 	int p;
-	
+
 	n = 612852475143;
 	p = 2;
-	
 	while (n != 0)
 	{
 		if (n % p != 0)
