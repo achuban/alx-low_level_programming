@@ -1,3 +1,4 @@
+#include <string.h>
 #include "main.h"
 /**
 * rev_string - reverse string
@@ -18,8 +19,7 @@ void rev_string(char *s)
 	for (i = 0; s[i] != '\0'; i++)
 	{
 	}
-	
-	c = new char[i];
+	strcpy(c, *s);
 	for (i = i - 1; i >= 0; i--)
 	{
 		s[j] = c[i];
