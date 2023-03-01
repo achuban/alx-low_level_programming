@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-* _strcat - concatenates two string
+* _strncat - concatenates two string
 *
 * @dest: dest is a ponter to char dest
 * @src: src is a pointer to char src
- @n: n is int
+* @n: n is int
 * Description: 'concatenates two string until n'
 * Return: dest
 */
