@@ -21,8 +21,8 @@ char *_strcat(char *dest, char *src)
 	}
 	for (c = 0; c < i; c++)
 	{
-		dest[j + i] = src[c];
+		dest[j + c] = src[c];
 	}
-	dest[i] = '\0';
+	dest[j + c] = '\0';
 	return (dest);
 }
