@@ -5,9 +5,14 @@
 * @c: c is char dest
 * Return: uper char
 */
-char *string_toupper(char c)
+char *string_toupper(char *c)
 {
-	if (c >= 97 && c <= 122)
-		c -= 32;
-	return (&c);
+	int i;
+
+	for (i = 0; c[i] != '\0'; i++)
+	{
+		if (c[i] >= 97 && c[i] <= 122)
+			c[i] -= 32;
+	}
+	return (c);
 }
