@@ -4,7 +4,7 @@
 *
 * @s1: s1 first param, is a pointer to char
 * @s2: s2 second param, is a pointer to char
-* Return: int 
+* Return: int
 */
 int _strcmp(char *s1, char *s2)
 {
