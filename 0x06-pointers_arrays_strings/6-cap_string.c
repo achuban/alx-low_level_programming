@@ -24,37 +24,34 @@ char *cap_string(char *c)
 */
 int isSeparator(char s)
 {
-	int r;
-
-	r = 0;
 	switch (s)
 	{
 		case 9:
-			r = 1;
+			return (1);
 		case 10:
-			r = 1;
+			return (1);
 		case 32:
-			r = 1;
+			return (1);
 		case 44:
-			r = 1;
+			return (1);
 		case 59:
-			r = 1;
+			return (1);
 		case 46:
-			r = 1;
+			return (1);
 		case 33:
-			r = 1;
+			return (1);
 		case 63:
-			r = 1;
+			return (1);
 		case 34:
-			r = 1;
+			return (1);
 		case 40:
-			r = 1;
+			return (1);
 		case 41:
-			r = 1;
+			return (1);
 		case 123:
-			r = 1;
+			return (1);
 		case 125:
-			r = 1;
+			return (1);
 	}
-	return (r);
+	return (0);
 }
