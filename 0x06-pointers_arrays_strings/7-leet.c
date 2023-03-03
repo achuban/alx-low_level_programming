@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* leet - leet encoding 
+* leet - leet encoding
 *
 * @c: c is a ponter to char dest
 * Return: dest
