@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* more_numbers - Print - nubers
+* print_number - Print - nubers
 *
-* @n: int n param to e displayed
+* @n: int n param to be displayed
 * Description: 'print numbers'
 */
 void print_number(int n)
