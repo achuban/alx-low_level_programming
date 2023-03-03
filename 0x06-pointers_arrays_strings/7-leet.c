@@ -8,10 +8,18 @@
 char *leet(char *c)
 {
 	int i;
+	int j;
+
+	char s1[] = "aAeEoOtTlL";
+	char s2[] = "4433007711";
 
 	for (i = 0; c[i] != '\0'; i++)
 	{
-		c[i] = (c[i] == 'A' || c[i] == 'a') ? '4' : (c[i] == 'E' || c[i] == 'e') ? '3' : (c[i] == 'O' || c[i] == 'o') ? '0' : (c[i] == 'T' || c[i] == 't') ? '7' : (c[i] == 'L' || c[i] == 'l') ? '1' : c[i];
+		for (j = 0; j < 10; j++)
+		{
+			if (c[i] == s1[j])
+				c[i] = s2[j];
+		}
 	}
 	return (c);
 }
