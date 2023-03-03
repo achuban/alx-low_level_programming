@@ -26,31 +26,31 @@ int isSeparator(char s)
 {
 	switch (s)
 	{
-		case 9:
+		case ' ':
 			return (1);
-		case 10:
+		case '\t':
 			return (1);
-		case 32:
+		case '\n':
 			return (1);
-		case 44:
+		case ',':
 			return (1);
-		case 59:
+		case ';':
 			return (1);
-		case 46:
+		case '.':
 			return (1);
-		case 33:
+		case '!':
 			return (1);
-		case 63:
+		case '?':
 			return (1);
-		case 34:
+		case '"':
 			return (1);
-		case 40:
+		case '(':
 			return (1);
-		case 41:
+		case ')':
 			return (1);
-		case 123:
+		case '{':
 			return (1);
-		case 125:
+		case '}':
 			return (1);
 	}
 	return (0);
