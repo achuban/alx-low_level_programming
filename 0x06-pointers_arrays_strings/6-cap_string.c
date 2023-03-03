@@ -33,27 +33,27 @@ int isSeparator(char s)
 			r = 1;
 		case 10:
 			r = 1;
-		case '':
+		case 32:
 			r = 1;
-		case ',':
+		case 44:
 			r = 1;
-		case ';':
+		case 59:
 			r = 1;
-		case '.':
+		case 46:
 			r = 1;
-		case '!':
+		case 33:
 			r = 1;
-		case '?':
+		case 63:
 			r = 1;
-		case '"':
+		case 34:
 			r = 1;
-		case '(':
+		case 40:
 			r = 1;
-		case ')':
+		case 41:
 			r = 1;
-		case '{':
+		case 123:
 			r = 1;
-		case '}':
+		case 125:
 			r = 1;
 	}
 	return (r);
