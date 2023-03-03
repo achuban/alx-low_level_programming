@@ -5,13 +5,13 @@
 * @c: c is char dest
 * Return: uper string
 */
-char *cap_string(char *c);
+char *cap_string(char *c)
 {
 	int i;
 
 	for (i = 0; c[i] != '\0'; i++)
 	{
-		if (isSeparator(c[i]) == 1 && c[i+1] != '\0' && (c[i] >= 97 && c[i] <= 122))
+		if (isSeparator(c[i]) == 1 && c[i + 1] != '\0' && (c[i] >= 97 && c[i] <= 122))
 			c[i + 1] -= 32;
 	}
 	return (c);
@@ -19,7 +19,7 @@ char *cap_string(char *c);
 /**
 * isSeparator - check if its a Separator
 *
-* @c: c is char 
+* @s: s is char
 * Return: uper string
 */
 int isSeparator(char s)
@@ -30,6 +30,8 @@ int isSeparator(char s)
 	switch (s)
 	{
 		case 9:
+			r = 1;
+		case 10:
 			r = 1;
 		case '':
 			r = 1;
@@ -52,7 +54,7 @@ int isSeparator(char s)
 		case '{':
 			r = 1;
 		case '}':
-			r = 1;			
+			r = 1;
 	}
 	return (r);
 }
