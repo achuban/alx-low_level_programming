@@ -11,8 +11,11 @@ char *cap_string(char *c)
 
 	for (i = 0; c[i] != '\0'; i++)
 	{
-		if (isSeparator(c[i]) == 1 && c[i + 1] != '\0' && (c[i + 1] >= 97 && c[i + 1] <= 122))
+		if (i == 0 && c[i + 1] >= 97 && c[i + 1] <= 122)
 			c[i + 1] -= 32;
+		if (isSeparator(c[i]) == 1 && c[i + 1] != '\0')
+			if (c[i + 1] >= 97 && c[i + 1] <= 122)
+				c[i + 1] -= 32;
 	}
 	return (c);
 }
