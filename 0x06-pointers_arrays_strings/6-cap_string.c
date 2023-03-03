@@ -11,8 +11,8 @@ char *cap_string(char *c);
 
 	for (i = 0; c[i] != '\0'; i++)
 	{
-		if (c[i] >= 97 && c[i] <= 122)
-			c[i] -= 32;
+		if (isSeparator(c[i]) == 1 && c[i+1] != '\0' && (c[i] >= 97 && c[i] <= 122))
+			c[i + 1] -= 32;
 	}
 	return (c);
 }
@@ -29,8 +29,30 @@ int isSeparator(char s)
 	r = 0;
 	switch (s)
 	{
+		case 9:
+			r = 1;
 		case '':
 			r = 1;
+		case ',':
+			r = 1;
+		case ';':
+			r = 1;
+		case '.':
+			r = 1;
+		case '!':
+			r = 1;
+		case '?':
+			r = 1;
+		case '"':
+			r = 1;
+		case '(':
+			r = 1;
+		case ')':
+			r = 1;
+		case '{':
+			r = 1;
+		case '}':
+			r = 1;			
 	}
 	return (r);
 }
