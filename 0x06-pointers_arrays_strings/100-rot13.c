@@ -18,7 +18,10 @@ char *rot13(char *c)
 		for (j = 0; j < 52; j++)
 		{
 			if (c[i] == s1[j])
+			{
 				c[i] = s2[j];
+				break;
+			}
 		}
 	}
 	return (c);
