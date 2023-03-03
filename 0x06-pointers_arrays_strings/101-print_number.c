@@ -2,6 +2,7 @@
 /**
 * more_numbers - Print - nubers
 *
+* @n: int n param to e displayed
 * Description: 'print numbers'
 */
 void print_number(int n)
