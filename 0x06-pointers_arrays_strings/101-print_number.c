@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* more_numbers - Print - nubers 0-14
+* more_numbers - Print - nubers
 *
-* Description: 'print numbers from 0-14'
+* Description: 'print numbers'
 */
 void print_number(int n)
 {
