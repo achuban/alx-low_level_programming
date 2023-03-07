@@ -16,6 +16,6 @@ void print_diagsums(int *a, int size)
 		_putchar(a[i][i]);
 		_putchar(',');
 		_putchar(' ');
-		_putchar(a[i][n - i - 1]);
+		_putchar(a[i][size - i - 1]);
 	}
 }
