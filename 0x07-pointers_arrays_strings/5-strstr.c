@@ -30,6 +30,7 @@ char *_strstr(char *haystack, char *needle)
 		if (haystack[k] == needle[0])
 		{
 			s = k;
+			t = 0;
 			for (l = 0; l < j; l++)
 			{
 				if (haystack[k + l] == needle[l])
