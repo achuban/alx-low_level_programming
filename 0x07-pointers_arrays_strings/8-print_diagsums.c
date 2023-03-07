@@ -7,7 +7,7 @@
 * Description: 'prints the sum of the two diagonals of a square matrix of integers'
 * Return: void
 */
-void print_diagsums(int **a, int size)
+void print_diagsums(int *a[], int size)
 {	
 	int i;
 
