@@ -12,21 +12,26 @@ void print_diagsums(int *a, int size)
 {	
 	int i;
 	int j;
+	int k;
+	int l;
 	int s1;
 	int s2;
 
 	s1 = 0;
 	s2 = 0;
 
+	k = size - 1;
 	for (i = 0; i < size; i++)
 	{
 		for (j = 0; j < size; j++)
 		{
 			if (i == j)
-				s1 += a[j];
-			if (j == (size - i -1))
-				s2 += a[j];
+				s1 += a[l];
+			if (j == k)
+				s2 += a[l];
+			l++;
 		}
+		k--;
 	}
 	printf("%i, %i\n", s1, s2);
 }
