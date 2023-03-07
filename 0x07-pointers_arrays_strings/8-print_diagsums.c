@@ -19,8 +19,9 @@ void print_diagsums(int *a, int size)
 
 	s1 = 0;
 	s2 = 0;
-
+	l = 0;
 	k = size - 1;
+
 	for (i = 0; i < size; i++)
 	{
 		for (j = 0; j < size; j++)
