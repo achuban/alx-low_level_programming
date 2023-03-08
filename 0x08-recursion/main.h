@@ -11,5 +11,6 @@ int roots(int r, int c);
 int is_prime_number(int n);
 int primN(int n, int i);
 int is_palindrome(char *s);
+int ch_palindrome(char *s, int l, int r);
 
 #endif /* MAIN_H */
