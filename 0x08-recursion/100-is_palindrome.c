@@ -15,7 +15,7 @@ int is_palindrome(char *s)
 	r =  _strlen_recursion(s);
 	if (r == 0)
 		return (1);
-	return (ch_palindrome(s, l, r));
+	return (ch_palindrome(s, l, r - 1));
 }
 /**
 * ch_palindrome - check if if a string is a palindrome
