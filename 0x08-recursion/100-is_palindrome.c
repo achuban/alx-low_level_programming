@@ -24,7 +24,7 @@ int is_palindrome(char *s)
 */
 int ch_palindrome(char *s, int l, int r)
 {
-	if(s == '\0' || l < 0 || r < 0)
+	if(*s == '\0' || l < 0 || r < 0)
 		return 0;
 	if(l >= r)
 		return 1;
