@@ -1,4 +1,5 @@
 #include "main.h"
+_strlen_recursion(char *s);
 /**
 * is_palindrome - check if if a string is a palindrome
 *
@@ -31,4 +32,17 @@ int ch_palindrome(char *s, int l, int r)
 	if(s[l] == s[r])
 		return ch_palindrome(s, l + 1, r - 1);
 	return 0;
+}
+/**
+* _strlen_recursion - cout string
+*
+* @s: s is char pointer
+* Return: int.
+*/
+int _strlen_recursion(char *s)
+{
+	if (*s == '\0')
+		return (0);
+	s++;
+	return (_strlen_recursion(s) + 1);
 }
