@@ -5,7 +5,7 @@
 * @s: s is char pointer
 * Return: int.
 */
-int is_palindrome(char *s);
+int is_palindrome(char *s)
 {
 	int l;
 	int r;
