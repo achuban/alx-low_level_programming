@@ -9,5 +9,6 @@ int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int roots(int r, int c);
 int is_prime_number(int n);
+int primN(int n, int i);
 
 #endif /* MAIN_H */
