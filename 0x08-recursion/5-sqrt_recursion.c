@@ -28,5 +28,5 @@ int roots(int r, int c)
 	else if (c * c > r)
 		return (-1);
 	else
-		return (_root_sqrt(raiz, cont + 1));
+		return (roots(r, c + 1));
 }
