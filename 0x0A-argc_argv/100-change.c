@@ -11,35 +11,37 @@
 int main(int argc, char *argv[])
 {
 	int coins;
+	int n;
 	char c[] = "Error";
 
-	conis = 0;
+	coins = 0;
 	if (argc != 2)
 	{
 		printf("%s\n", c);
 		return (1);
 	}
-	while (atoi(argv[1]) >= 25)
+	n = atoi(argv[1]);
+	while (n >= 25)
 	{
-		atoi(argv[1]) -= 25;
+		n -= 25;
 		coins++;
 	}
-	while (atoi(argv[1]) >= 10)
+	while (n >= 10)
 	{
-		atoi(argv[1]) -= 10;
+		n -= 10;
 		coins++;
 	}
-	while (atoi(argv[1]) >= 5)
+	while (n >= 5)
 	{
-		atoi(argv[1]) -= 5;
+		n -= 5;
 		coins++;
 	}
-	while (atoi(argv[1]) >= 2)
+	while (n >= 2)
 	{
-		atoi(argv[1]) -= 2;
+		n -= 2;
 		coins++;
 	}
-	if (atoi(argv[1]) == 1)
+	if (n == 1)
 		coins++;
 	printf("%d\n", coins);
 	return (0);
