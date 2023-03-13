@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 	int i;
 	int s;
 	char *l;
+	char c[] = "Error";
 
 	s = 0;
 	if (argc == 0)
@@ -23,7 +24,7 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 	{
 		l = argv[i];
-		while (argv[i] != '\0')
+		while (argv[i] != 0)
 		{
 			if (*l < 47 || *l > 57)
 			{
@@ -32,7 +33,7 @@ int main(int argc, char *argv[])
 			}
 			l++;
 		}
-		s += argv[i];
+		s += atoi(argv[i]);
 	}
 	printf("%i\n", s);
 	return (0);
