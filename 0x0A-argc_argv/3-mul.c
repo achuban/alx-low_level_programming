@@ -10,7 +10,13 @@
 */
 int main(int argc, char *argv[])
 {
-	(void)argc;
+	char c[] = "Error";
+
+	if (argc != 3)
+	{
+		printf("%s\n", c);
+		return (1);
+	}
 	printf("%i\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }
