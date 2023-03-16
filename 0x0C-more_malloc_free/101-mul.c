@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	if (argc != 3)
 	{
 		printf("%s\n", c);
-		exit (98);
+		exit(98);
 	}
 	for (i = 1; i < argc; i++)
 	{
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 			if (*l < 47 || *l > 57)
 			{
 				printf("%s\n", c);
-				return (98);
+				exit(98);
 			}
 	}
 	printf("%i\n", atoi(argv[1]) * atoi(argv[2]));
