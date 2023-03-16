@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 	{
 		l = argv[i];
-		while (*l != 0)
+		while (*l != '\0')
 			if (*l < 47 || *l > 57)
 			{
 				printf("%s\n", c);
