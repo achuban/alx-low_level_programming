@@ -4,7 +4,8 @@
 * malloc_checked - allocates memory using malloc
 *
 * @b: b is int
-* Description: 'returns a pointer to a newly copied str'
+* Description: 'allocates memory using malloc'
+* return: pointer
 */
 void *malloc_checked(unsigned int b)
 {
