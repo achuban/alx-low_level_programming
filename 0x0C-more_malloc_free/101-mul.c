@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 	char *l;
-	unsigned int i;
+	int i;
 	char c[] = "Error";
 
 	if (argc != 3)
