@@ -5,7 +5,7 @@
 *
 * @b: b is int
 * Description: 'allocates memory using malloc'
-* return: pointer
+* Return: pointer
 */
 void *malloc_checked(unsigned int b)
 {
