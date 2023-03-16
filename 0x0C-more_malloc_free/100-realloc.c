@@ -37,8 +37,8 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	d = (old_size < new_size) ? old_size : new_size;
 	for (i = 0; i < d; i++)
 	{
-		s[i] = (char *)ptr[i];
+		s[i] = ((char *)ptr)[i];
 	}
-	free(ptr)
+	free(ptr);
 	return (s);
 }
