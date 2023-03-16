@@ -22,12 +22,15 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 	{
 		l = argv[i];
-		while (*l != '\0')
-			if (*l < 47 || *l > 57)
+		while (l[i])
+		{
+			if (l[i] < '0' || l[i] > '9')
 			{
 				printf("%s\n", c);
 				exit(98);
 			}
+			i++;
+		}
 	}
 	printf("%i\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
