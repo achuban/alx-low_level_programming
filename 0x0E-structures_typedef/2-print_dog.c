@@ -2,12 +2,9 @@
 #include <stdlib.h>
 #include "dog.h"
 /**
-* init_dog -  init dog struct
+* print_dog -  print dog struct
 *
 * @d: d is dog struct
-* @name: name is dog struct
-* @age: age is dog struct
-* @owner: owner is dog struct
 */
 void print_dog(struct dog *d)
 {
