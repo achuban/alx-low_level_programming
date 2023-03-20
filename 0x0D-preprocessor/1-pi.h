@@ -1,5 +1,5 @@
-#ifndef 1-pi
-#define 1-pi
+#ifndef MAIN_H
+#define MAIN_H
 #define PI  (3.14159265359)
 
-#endif /* 1-pi */
+#endif /* MAIN_H */
