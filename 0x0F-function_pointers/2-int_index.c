@@ -7,6 +7,7 @@
 * @array: array is array of int
 * @size: size is second parm
 * @cmp: action is pointer to function
+* Return: index of the frist match
 */
 int int_index(int *array, int size, int (*cmp)(int))
 {
