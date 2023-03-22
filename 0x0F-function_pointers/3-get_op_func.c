@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <string.h>
 #include "3-calc.h"
 /**
 * get_op_func -  Select opt function
@@ -22,7 +22,7 @@ int (*get_op_func(char *s))(int a, int b)
 	i = 0;
 	while (i < 5)
 	{
-		if (ops[i].op == s)
+		if (!(strcmp(ops[i].op, s)))
 			return (ops[i].f);
 		i++;
 	}
