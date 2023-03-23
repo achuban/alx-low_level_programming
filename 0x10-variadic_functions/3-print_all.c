@@ -9,7 +9,6 @@
 void print_all(const char * const format, ...)
 {
 	va_list ap;
-	unsigned int i;
 	char *s;
 	char *arg;
 
