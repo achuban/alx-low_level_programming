@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
-* print_numbers -  print numbers
+* print_strings -  print numbers
 *
 * @separator: separator is first param
 * @n: n is second param
