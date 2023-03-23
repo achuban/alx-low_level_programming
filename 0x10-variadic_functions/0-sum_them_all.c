@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdarg.h>
 #include "variadic_functions.h"
 /**
 * sum_them_all -  array iterator
@@ -16,7 +17,7 @@ int sum_them_all(const unsigned int n, ...)
 		return (0);
 
 	va_start(ap, arg1);
-	for (i = arg1; i >= 0; i = va_arg(ap, int))
+	for (i = 0; i < n; i++)
 		s += va_arg(ap, int);
 
 	va_end(ap);
