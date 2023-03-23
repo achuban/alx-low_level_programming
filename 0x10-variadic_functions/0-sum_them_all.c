@@ -10,15 +10,15 @@
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list ap;
-	int i;
-	int s;
+	unsigned int i;
+	unsigned int s;
 
 	if (n == 0)
 		return (0);
 
-	va_start(ap, arg1);
-	for (i = arg1; i >= 0; i = va_arg(ap, int))
-		s += i;
+	va_start(ap, n);
+	for (i = 0; i < n; i++)
+		s += va_arg(ap, int);
 
 	va_end(ap);
 	return (s);
